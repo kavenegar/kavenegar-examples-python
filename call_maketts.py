@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from kavenegar import *
 try:
-  api = KavenegarAPI('your aplikey here')
+  api = KavenegarAPI('your apikey here')
   params = {
     'receptor': '',
     'message': ''

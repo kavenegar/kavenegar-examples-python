@@ -1,6 +1,6 @@
 from kavenegar import *
 try:
-    api = KavenegarAPI('Your APIKey')
+    api = KavenegarAPI('your apikey here')
     params = {
         'sender': '',#Array of String
         'receptor': '',#Array of String
@@ -12,9 +12,3 @@ except APIException as e:
     print(e)
 except HTTPException as e: 
     print(e)
-
-
-
-
-
-    

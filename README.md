@@ -11,7 +11,7 @@ from kavenegar import *
 try:
     api = KavenegarAPI('Your APIKey')
     params = {
-        'sender': '',#optinal
+        'sender': '',#optional
         'receptor': '',#multiple mobile number, split by comma
         'message': '',
     } 
